@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <h2>Verify Unsubscription</h2>
 <form method="POST">
-    <input type="email" name="unsubscribe_email_verify" required placeholder="Enter your email">
+    <input type="email" name="unsubscribe_email" required placeholder="Enter your email">
     <input type="text" name="unsubscribe_verification_code" required placeholder="Verification code">
     <button id="verify-unsubscribe" type="submit">Verify</button>
 </form>
